@@ -1,0 +1,12 @@
+li {
+    background-color: #fce8cf;
+    font-family: Arial;
+    padding: 10px;
+}
+
+button {
+    align-self: center;
+    background-color: #f56c6c;
+    border-color: black;
+    border-radius: 10px;
+}

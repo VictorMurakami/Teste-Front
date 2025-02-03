@@ -1,0 +1,17 @@
+form {
+    padding: 10px;
+}
+
+button {
+    background-color: #83f796;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: black;
+}

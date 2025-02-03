@@ -1,0 +1,5 @@
+<div *ngFor="let todo of todos">
+  <li>{{ todo.title }}</li>
+  <input type="checkbox">
+  <button (click)="deleteTodo(todo.id!)">X</button>
+</div>
