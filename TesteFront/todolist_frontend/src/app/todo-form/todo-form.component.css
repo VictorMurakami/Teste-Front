@@ -1,17 +1,35 @@
 form {
     padding: 10px;
 }
-
-button {
-    background-color: #83f796;
-    padding: 7px;
-    border-radius: 20px;
+  .v1_22 {
+    font-size: 17px;
+    font-family: Inter;
+    width: 700px;
+    height: 47px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 24px;
+    left: 44px;
+    border-radius: 50px;
+    overflow: hidden;
+    border-style: none;
+    padding: 0 10px;
+  }
+  .v1_25 {
+    width: 83px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,109,119,1);
+    border-radius: 40px;
+    padding: 13px;
+    position: absolute;
+    top: 24px;
+    left: 770px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
     cursor: pointer;
-}
-
-input {
-    padding: 10px;
-    border-radius: 20px;
-    border-style: groove;
-    border-color: black;
-}
+    border-style: none;
+  }

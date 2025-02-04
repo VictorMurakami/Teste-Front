@@ -18,8 +18,14 @@ export class TodoFormComponent {
   saveTodo(): void {
     if (this.todo.id) {
       this.todoService.updateTodo(this.todo).subscribe(() => this.saved.emit());
+      setTimeout(() => {
+        location.reload();
+      }, 500);
     } else {
       this.todoService.addTodo(this.todo).subscribe(() => this.saved.emit());
+      setTimeout(() => {
+        location.reload();
+      }, 500);
     }
   }
 }
